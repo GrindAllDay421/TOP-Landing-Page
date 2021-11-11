@@ -1,0 +1,31 @@
+/* * {
+  border: 5px solid red;
+} */
+
+body {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.temp-img {
+  width: 50px;
+  height: 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.section-one {
+  background-color: #1F2937;
+  color: #f9faf8
+}
