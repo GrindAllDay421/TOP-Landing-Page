@@ -25,7 +25,40 @@ a {
   font-size: 18px;
 }
 
-.section-one {
+.nav {
   background-color: #1F2937;
-  color: #f9faf8
+  color: #f9faf8;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 125px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-link {
+  font-size: 18px;
+  color #e5e7eb;
+  margin: 0px 10px;
+}
+
+.nav-links {
+  display: flex;
+  flex-flow: row;
+  justify-content: ;
+}
+
+.section-one {
+  display: flex;
+}
+
+img {
+  width: 100px;
+  height: 100px;
 }
