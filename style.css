@@ -2,16 +2,15 @@
   border: 5px solid red;
 } */
 
+html * {
+  font-family: "Roboto";
+}
+
 body {
   padding: 0px;
   margin: 0px;
   display: flex;
   flex-direction: column;
-}
-
-.temp-img {
-  width: 50px;
-  height: 50px;
 }
 
 ul {
@@ -37,6 +36,7 @@ a {
 
 .logo {
   font-size: 24px;
+  font-weight: 800;
   color: #f9faf8;
   padding: 0px;
   margin: 0px;
@@ -45,7 +45,7 @@ a {
 .header-link {
   font-size: 18px;
   color #e5e7eb;
-  margin: 0px 10px;
+  margin-left: 20px;
 }
 
 .nav-links {
@@ -56,9 +56,47 @@ a {
 
 .section-one {
   display: flex;
+  background-color: #1F2937;
+  color: #f9faf8;
+  padding: 100px 125px;
 }
 
-img {
-  width: 100px;
-  height: 100px;
+.s1-left-side,
+.s1-right-side {
+  flex: 1;
+}
+
+.s1-left-side {
+  padding-right: 20px;
+}
+
+.s1-right-side {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  margin: 0px;
+}
+
+.s1-subtext {
+  margin: 0px 0px 15px;
+}
+
+.s1-placeholder {
+  color: #f9faf8;
+  font-weight: 400;
+}
+
+.signup-button {
+  background-color: #3882F6;
+  color: #f9faf8;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 20px;
+  font-weight: bold;
 }
